@@ -1,6 +1,6 @@
 const states = [
   {
-    state: 'Abia',
+    name: 'Abia',
     capital: 'Umuahia',
     divisions: [
       'Aba North',
@@ -23,7 +23,7 @@ const states = [
     ]
   },
   {
-    state: 'Adamawa',
+    name: 'Adamawa',
     capital: 'Yola',
     divisions: [
       'Demsa',
@@ -51,7 +51,7 @@ const states = [
     ]
   },
   {
-    state: 'Akwa Ibom',
+    name: 'Akwa Ibom',
     capital: 'Uyo',
     divisions: [
       'Abak',
@@ -88,7 +88,7 @@ const states = [
     ]
   },
   {
-    state: 'Anambra',
+    name: 'Anambra',
     capital: 'Awka',
     divisions: [
       'Aguata',
@@ -115,7 +115,7 @@ const states = [
     ]
   },
   {
-    state: 'Bauchi',
+    name: 'Bauchi',
     capital: 'Bauchi',
     divisions: [
       'Alkaleri',
@@ -141,7 +141,7 @@ const states = [
     ]
   },
   {
-    state: 'Bayelsa',
+    name: 'Bayelsa',
     capital: 'Yenagoa',
     divisions: [
       'Brass, Nigeria',
@@ -155,7 +155,7 @@ const states = [
     ]
   },
   {
-    state: 'Benue',
+    name: 'Benue',
     capital: 'Makurdi',
     divisions: [
       'Ado, Benue',
@@ -184,7 +184,7 @@ const states = [
     ]
   },
   {
-    state: 'Borno',
+    name: 'Borno',
     capital: 'Maiduguri',
     divisions: [
       'Abadam',
@@ -216,7 +216,7 @@ const states = [
     ]
   },
   {
-    state: 'Cross River',
+    name: 'Cross River',
     capital: 'Calabar',
     divisions: [
       'Abia',
@@ -240,7 +240,7 @@ const states = [
     ]
   },
   {
-    state: 'Delta',
+    name: 'Delta',
     capital: 'Asaba',
     divisions: [
       'Aniocha South',
@@ -271,7 +271,7 @@ const states = [
     ]
   },
   {
-    state: 'Ebonyi',
+    name: 'Ebonyi',
     capital: 'Abakaliki',
     divisions: [
       'Abakaliki',
@@ -290,7 +290,7 @@ const states = [
     ]
   },
   {
-    state: 'Edo',
+    name: 'Edo',
     capital: 'Benin',
     divisions: [
       'Akoko-Edo',
@@ -311,7 +311,7 @@ const states = [
     ]
   },
   {
-    state: 'Ekiti',
+    name: 'Ekiti',
     capital: 'Ado Ekiti',
     divisions: [
       'Ado Ekiti',
@@ -335,7 +335,7 @@ const states = [
     ]
   },
   {
-    state: 'Enugu',
+    name: 'Enugu',
     capital: 'Enugu',
     divisions: [
       'Aninri',
@@ -354,7 +354,7 @@ const states = [
     ]
   },
   {
-    state: 'Gombe',
+    name: 'Gombe',
     capital: 'Gombe',
     divisions: [
       'Akko',
@@ -371,7 +371,7 @@ const states = [
     ]
   },
   {
-    state: 'Imo',
+    name: 'Imo',
     capital: 'Owerri',
     divisions: [
       'Aboh-mbaise',
@@ -403,7 +403,7 @@ const states = [
     ]
   },
   {
-    state: 'Jigawa',
+    name: 'Jigawa',
     capital: 'Dutse',
     divisions: [
       'Auyo',
@@ -436,7 +436,7 @@ const states = [
     ]
   },
   {
-    state: 'Kaduna',
+    name: 'Kaduna',
     capital: 'Kaduna',
     divisions: [
       'Brnin Gwari',
@@ -464,7 +464,7 @@ const states = [
     ]
   },
   {
-    state: 'Kano',
+    name: 'Kano',
     capital: 'Kano',
     divisions: [
       'Ajigi',
@@ -512,7 +512,7 @@ const states = [
     ]
   },
   {
-    state: 'Katsina',
+    name: 'Katsina',
     capital: 'Katsina',
     divisions: [
       'Bakori',
@@ -550,7 +550,7 @@ const states = [
     ]
   },
   {
-    state: 'Kebbi',
+    name: 'Kebbi',
     capital: 'Birnin Kebbi',
     divisions: [
       'Aliero',
@@ -578,7 +578,7 @@ const states = [
     ]
   },
   {
-    state: 'Kogi',
+    name: 'Kogi',
     capital: 'Lokoja',
     divisions: [
       'Adavi',
@@ -604,7 +604,7 @@ const states = [
     ]
   },
   {
-    state: 'Kwara',
+    name: 'Kwara',
     capital: 'Ilorin',
     divisions: [
       'Asa',
@@ -626,7 +626,7 @@ const states = [
     ]
   },
   {
-    state: 'Lagos',
+    name: 'Lagos',
     capital: 'Ikeja',
     divisions: [
       'Agege',
@@ -652,7 +652,7 @@ const states = [
     ]
   },
   {
-    state: 'Nasarawa',
+    name: 'Nasarawa',
     capital: 'Lafia',
     divisions: [
       'Akwanga',
@@ -671,7 +671,7 @@ const states = [
     ]
   },
   {
-    state: 'Niger',
+    name: 'Niger',
     capital: 'Minna',
     divisions: [
       'Agaie',
@@ -700,7 +700,7 @@ const states = [
     ]
   },
   {
-    state: 'Ogun',
+    name: 'Ogun',
     capital: 'Abeokuta',
     divisions: [
       'Abeokuta north',
@@ -725,7 +725,7 @@ const states = [
     ]
   },
   {
-    state: 'Ondo',
+    name: 'Ondo',
     capital: 'Akure',
     divisions: [
       'Akoko north',
@@ -749,7 +749,7 @@ const states = [
     ]
   },
   {
-    state: 'Osun',
+    name: 'Osun',
     capital: 'Oshogbo',
     divisions: [
       'Atakumosa east',
@@ -785,7 +785,7 @@ const states = [
     ]
   },
   {
-    state: 'Oyo',
+    name: 'Oyo',
     capital: 'Ibadan',
     divisions: [
       'Afijio',
@@ -825,7 +825,7 @@ const states = [
     ]
   },
   {
-    state: 'Plateau',
+    name: 'Plateau',
     capital: 'Jos',
     divisions: [
       'Barkin/ladi',
@@ -847,7 +847,7 @@ const states = [
     ]
   },
   {
-    state: 'Rivers',
+    name: 'Rivers',
     capital: 'Port Harcourt',
     divisions: [
       'Abua/Odial',
@@ -875,7 +875,7 @@ const states = [
     ]
   },
   {
-    state: 'Sokoto',
+    name: 'Sokoto',
     capital: 'Sokoto',
     divisions: [
       'Binji',
@@ -903,7 +903,7 @@ const states = [
     ]
   },
   {
-    state: 'Taraba',
+    name: 'Taraba',
     capital: 'Jalingo',
     divisions: [
       'Akdo-kola',
@@ -925,7 +925,7 @@ const states = [
     ]
   },
   {
-    state: 'Yobe',
+    name: 'Yobe',
     capital: 'Damaturu',
     divisions: [
       'Borsari',
@@ -949,7 +949,7 @@ const states = [
     ]
   },
   {
-    state: 'Zamfara',
+    name: 'Zamfara',
     capital: 'Gusau',
     divisions: [
       'Anka',
@@ -968,7 +968,7 @@ const states = [
     ]
   },
   {
-    state: 'FCT Abuja',
+    name: 'FCT Abuja',
     capital: 'Abuja',
     divisions: [
       'Abaji',
