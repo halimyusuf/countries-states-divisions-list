@@ -1,0 +1,15 @@
+{
+  "name": "countries-states-divisions-list",
+  "version": "1.0.0",
+  "description": "This is a package that provides all countries, their states and capitals",
+  "main": "index.js",
+  "scripts": {},
+  "author": "halim yusuf",
+  "homepage": "https://github.com/halimyusuf/countries-states-divisions-list",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
+}
