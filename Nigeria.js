@@ -986,9 +986,7 @@ function getStates() {
 }
 
 function getState(state) {
-  return states.find(
-    (item) => item.state.toLowerCase() === state.toLowerCase()
-  );
+  return states.find((item) => item.name.toLowerCase() === state.toLowerCase());
 }
 // module.exports = getStates;
 // exports = getStates;
